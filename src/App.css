@@ -2,3 +2,22 @@
   margin: 0;
   padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2? family= Fondamento & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Rye & display=swap');
+
+:root{
+    --main-color: #white;
+    --second-color: #blue;
+}
+
+encart1, encart2 {
+    color:var(--main-color)   
+}
+
+encart1, encart2 {
+    font-family: Fondamento;
+}
+
+fronton{
+   font-family: rye; 
+}
