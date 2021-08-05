@@ -20,16 +20,16 @@
 
 .bar-interaction{
     position: absolute;
-    top: 56%;
-    right: 48.5%;
-    animation: pulsation 3s infinite;
+    top: 57%;
+    right: 48.9%;
+    animation: pulsation 1.5s infinite;
 }
 
 .fountain-interaction {
     position: absolute;
-    top: 26%;
-    right: 48.5%;
-    animation: poulpsation 3s infinite;
+    top: 27.5%;
+    right: 49.2%;
+    animation: poulpsation 1.5s infinite;
     color:#47a8d4;
 }
 
@@ -39,9 +39,10 @@
 
 .table-interaction {
     position: absolute;
-    top: 62%;
+    top: 58.5%;
     left: 21%;
-    animation: pulsation 3s infinite;
+    animation: pulsation 1.5s infinite;
+    color: #FEDCFC;
 }
 
 .scene-desc {
