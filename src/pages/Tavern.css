@@ -67,4 +67,11 @@
     }
     }
 
-  
+.Exit{
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top:930px;
+    left:1500px;
+
+}
