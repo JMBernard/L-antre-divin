@@ -11,14 +11,19 @@ function HomePage() {
                 </div>
                 <div className="encart encart1">
                     <p className="desc">Bienvenue devant l'Antre Divin
-Après une journée de visite dans l'Olympe, vous voilà bien fatigué ! 
-Rien de mieux qu'une taverne pour boire un coup et se reposer ! </p>
+                    Après une journée de visite dans l'Olympe, vous voilà
+                    bien fatigué ! 
+                    Rien de mieux qu'une taverne pour boire un coup et 
+                    se reposer ! </p>
                 </div>
                 <div className="encart encart2">
-                    <p className="desc">Mais attention,
-beaucoup de choses peuvent se passer derrière cette porte, 
-vous êtes tout de même sur le territoire des dieux et déesses de l'Olympe
-Restez sur vos gardes ...</p>
+                    <p className="desc">Mais attention, beaucoup de choses 
+                    peuvent se passer derrière cette porte, vous êtes tout 
+                    de même sur le territoire des dieux et déesses de l'Olympe
+                Restez sur vos gardes ...</p>
+                </div>
+                <div className="fronton">
+                    L'ANTRE du DIVIN
                 </div>
                 <div>
         <a className="entry-door" href="./" alt="yolo" />
