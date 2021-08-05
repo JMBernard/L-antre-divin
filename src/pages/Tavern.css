@@ -10,3 +10,61 @@
     object-fit: cover;
     position: fixed;
 }
+
+.fa-exclamation-circle {
+    font-size: 2rem;
+    color: rgb(163, 66, 66);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.bar-interaction{
+    position: absolute;
+    top: 56%;
+    right: 48.5%;
+    animation: pulsation 3s infinite;
+}
+
+.fountain-interaction {
+    position: absolute;
+    top: 26%;
+    right: 48.5%;
+    animation: poulpsation 3s infinite;
+    color:#47a8d4;
+}
+
+.fountain-interaction:hover.scene-desc {
+    opacity: 1;
+}
+
+.table-interaction {
+    position: absolute;
+    top: 62%;
+    left: 21%;
+    animation: pulsation 3s infinite;
+}
+
+.scene-desc {
+    width: 7rem;
+    height: 2rem;
+    position: absolute;
+    top: 12%;
+    left: 47%;   
+}
+
+
+
+@keyframes pulsation {
+    to {
+      box-shadow: 0 0 2px 2px white;
+    }
+    }
+
+
+@keyframes poulpsation {
+    to {
+        box-shadow: 0 0 2px 3px blue;
+    }
+    }
+
+  
