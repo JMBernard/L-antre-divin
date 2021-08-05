@@ -1,0 +1,149 @@
+.background-fountain{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: cover;
+    position: fixed;
+    position: absolute;
+}
+
+.cards-container{
+    position: relative;
+    display : flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 100vh;
+    
+}
+
+.godscards{
+    display: flex;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width : 20vw;
+    border-radius: 15px;
+    background: #AEE5FF;
+    box-shadow:0 0 20px rgba(0, 0, 0, 1);
+}
+
+h2{
+    padding: 10px;
+}
+
+.godsPictures{
+    padding: 10px;
+    width: 100%;
+}
+
+.god-description {
+    color: black;
+}
+p{
+    padding: 10px;
+    color: black;
+}
+
+.text-container{
+    position: relative;
+}
+
+.dialogue-left1{
+    width: 13%;
+    height: 5%;
+    background: #AEE5FF;
+    border-radius: 10px;
+    position: absolute;
+    left: 38%;
+    top: 20%;
+}
+
+.dialogue-left2{
+    width: 13%;
+    height: 5.5%;
+    background: #AEE5FF;
+    border-radius: 10px;
+    position: absolute;
+    left: 38%;
+    top: 34%;
+}
+
+.dialogue-left3{
+    width: 13%;
+    height: 7.5%;
+    background: #AEE5FF;
+    border-radius: 10px;
+    position: absolute;
+    left: 38%;
+    top: 48.5%;
+    padding-left: 5px;
+}
+
+.left-point{
+    width: 0;
+	height: 0;
+	border-left: 1.5vh solid transparent;
+	border-right: 1vh solid transparent;
+	border-top: 5vh solid #AEE5FF;
+	position: absolute;
+	top: 53%;
+	left: -10%;
+	transform: rotate(60deg);
+}
+
+.dialogue-right1{
+    width: 13%;
+    height: 5%;
+    background: #AEE5FF;
+    border-radius: 10px;
+    position: absolute;
+    left: 48%;
+    top: 27%;
+}
+
+.dialogue-right2{
+    width: 13%;
+    height: 5%;
+    background: #AEE5FF;
+    border-radius: 10px;
+    position: absolute;
+    left: 48%;
+    top: 41.5%;
+}
+
+.dialogue-right3{
+    width: 13%;
+    height: 5%;
+    background: #AEE5FF;
+    border-radius: 10px;
+    position: absolute;
+    left: 48%;
+    top: 58.5%;
+}
+
+.right-point{
+    width: 0;
+	height: 0;
+	border-left: 1.5vh solid transparent;
+	border-right: 1vh solid transparent;
+	border-top: 5vh solid #AEE5FF;
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: rotate(-60deg);
+}
+
+.back-btn{
+    position: absolute;
+    top : 70%;
+    left : 45%;
+    padding: 10px;
+    background-color: rgb(155, 120, 120);
+    border : 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
