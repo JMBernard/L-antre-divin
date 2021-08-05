@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import imagecentrale from '../assets/open-door2.jpg'
 import './HomePage.css';
 
@@ -26,7 +27,9 @@ function HomePage() {
                     L'ANTRE du DIVIN
                 </div>
                 <div>
-        <a className="entry-door" href="./" alt="yolo" />
+        <Link to='/tavern'>
+            <a className="entry-door" alt="yolo" />
+        </Link>
       </div>
         
         </div>
