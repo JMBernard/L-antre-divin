@@ -10,12 +10,14 @@ function HomePage() {
                     <img  className="img-home" src={imagecentrale} alt="porte d'entrée" />
                 </div>
                 <div className="encart encart1">
-                    <p className="desc">Bienvenue devant l'Antre Divin.
+                    <p className="desc">Bienvenue devant l'Antre Divin.<br/>
                     Après une journée de visite dans l'Olympe, vous voilà
-                    bien fatigué ! 
+                    bien fatigué ! <br/>
                     Rien de mieux qu'une taverne pour boire un coup et 
                     se reposer ! </p>
+
                 </div>
+
                 <div className="encart encart2">
                     <p className="desc">Mais attention, beaucoup de choses 
                     peuvent se passer derrière cette porte, vous êtes tout 
@@ -23,7 +25,7 @@ function HomePage() {
                     Restez sur vos gardes ...</p>
                 </div>
                 <div className="fronton">
-                    L'ANTRE du DIVIN
+                    L'ANTRE &nbsp;  DIVIN
                 </div>
                 <div>
         <a className="entry-door" href="./" alt="yolo" />
