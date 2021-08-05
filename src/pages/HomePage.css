@@ -1,0 +1,72 @@
+*{
+  margin: 0;  
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+}
+.img-home{
+  width:100vw;
+  height: 100vh;
+  
+}
+
+.encart1 .p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:50px;
+  font-style: italic;
+}
+.encart1{
+  width: 10%;
+  height: 20%;
+  position:absolute;
+  z-index: 2px;
+  top: 25%;
+  left:15%;
+  
+}
+
+.encart2{
+  width: 10%;
+  height: 20%;
+  position:absolute;
+  z-index: 2px;
+  top: 25%;
+  right:15%;
+  
+}
+
+.encart2 .p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+.desc {
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.entry-door {
+  height: 50%;
+  width: 11%;
+
+  position: absolute;
+  top: 40%;
+  left : 45%;
+  background-color: transparent;
+  animation: pulse 1.3s infinite;
+  cursor: pointer;
+
+}
+
+@keyframes pulse {
+  to {
+    box-shadow: 20px 0 100px 15px white,
+    -20px 0 100px 15px white,
+    0 0 100px 15px white,
+    0 0 100px 15px white;
+  }
+  }
