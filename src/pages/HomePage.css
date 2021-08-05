@@ -8,28 +8,28 @@
 }
 
 .encart1{
-  width: 10%;
+  width: 20%;
   height: 20%;
   position:absolute;
   z-index: 2px;
   top: 25%;
   left:15%;
   font-family: Fondamento;
-  font-size: 18px;
+  font-size: 24px;
   color: white;
   
 }
 
 .encart2{
-  width: 10%;
+  width: 20%;
   height: 20%;
   position:absolute;
   z-index: 2px;
   top: 25%;
   right:15%;
   font-family: Fondamento;
-  font-size: 18px;
-  color: white;
+  font-size: 24px;
+  color:white;
 }
 
 
@@ -64,11 +64,19 @@
     height: 20%;
     position:absolute;
     z-index: 2px;
-    top: 25%;
-    right:37%;
-    font-family: Rye;
+    top: 22%;
+    right:36.5%;
     font-weight: bold;
     font-size: 36px;
     color: white;
     
   }
+
+
+.encart1 .encart2 {
+  font-family: 'Fondamento';
+}
+
+.fronton {
+   font-family: 'Rye'; 
+}
