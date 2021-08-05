@@ -29,7 +29,7 @@
     position: absolute;
     top: 27.5%;
     right: 49.2%;
-    animation: poulpsation 1.5s infinite;
+    animation: pulpsation 1.5s infinite;
     color:#47a8d4;
 }
 
@@ -62,7 +62,7 @@
     }
 
 
-@keyframes poulpsation {
+@keyframes pulpsation {
     to {
         box-shadow: 0 0 2px 3px blue;
     }
