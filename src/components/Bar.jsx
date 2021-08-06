@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useState} from 'react-router-dom';
+import { Link, /*useState*/ } from 'react-router-dom';
 import dionysos from '../assets/gods/dionysos.jpg';
 import athéna from '../assets/gods/athéna.jpg';
 import fountain from '../assets/fountain.jpg';
@@ -8,12 +8,12 @@ import './Bar.css'
 
 function Bar() {
     
-    const [showText, setShowText] = useState(false);
+    // const [showText, setShowText] = useState(false);
 
     return (
         <div className="Bar">
             <img className="background-fountain" src={fountain} alt="bgPicture"/>
-            <div className={showText ?"cards-container" : null}>
+            <div className="cards-container">
                 <div className="godscards-bar">
                     <h2>Athéna</h2>
                     <span>Ἀθηνᾶ</span>
@@ -47,7 +47,7 @@ function Bar() {
                     </div>
                 </div>
                 <button className="show-btn" 
-                    onClick={() => {setShowText(!showText)}}>
+                    /*onClick={() => {setShowText(!showText)}}*/>
                 <i class="fas show-text fa-arrow-down"></i>
                 </button>
                 <Link to='/tavern'>
