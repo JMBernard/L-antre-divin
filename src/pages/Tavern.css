@@ -68,4 +68,15 @@
     }
     }
 
-  
+.Exit{
+    width: 60px;
+    height: 20px;
+    background-color: rgb(32, 29, 29);
+    color: white;
+    position: absolute;
+    top:930px;
+    left:1500px;
+    cursor: pointer;
+
+
+}
