@@ -65,6 +65,8 @@ h2{
     position: absolute;
     left: 38%;
     top: 20%;
+    animation: fadeIn 3s;
+  	opacity: 1;
 }
 
 .dialogue-left2{
@@ -76,6 +78,8 @@ h2{
     left: 38%;
     top: 34%;
     padding-left: 5px;
+    animation: fadeIn 8s;
+  	opacity: 1;
 }
 
 .dialogue-left3{
@@ -87,6 +91,8 @@ h2{
     left: 38%;
     top: 48.5%;
     padding-left: 5px;
+    animation: fadeIn 13s;
+  	opacity: 1;
 }
 
 .left-point{
@@ -109,6 +115,8 @@ h2{
     position: absolute;
     left: 48%;
     top: 27%;
+    animation: fadeIn 6s;
+  	opacity: 1;
 }
 
 .dialogue-right2{
@@ -119,6 +127,8 @@ h2{
     position: absolute;
     left: 48%;
     top: 41.5%;
+    animation: fadeIn 11s;
+  	opacity: 1;
 }
 
 .dialogue-right3{
@@ -129,6 +139,8 @@ h2{
     position: absolute;
     left: 48%;
     top: 58.5%;
+    animation: fadeIn 15s;
+  	opacity: 1;
 }
 
 .right-point{
@@ -152,5 +164,14 @@ h2{
     border : 1px solid black;
     border-radius: 5px;
     cursor: pointer;
+    animation: fadeIn 20s;
+  	opacity: 1;
 }
 
+@keyframes fadeIn {
+    
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+
+}

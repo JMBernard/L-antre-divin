@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 
 import './Tavern.css'
 
-function ExitPage(){
-    <link rel="stylesheet" href="ExitPage" />
-}
-
 function Tavern() {
     return (
         <div className='Tavern'>

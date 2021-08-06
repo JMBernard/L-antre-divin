@@ -18,7 +18,7 @@ function Bar() {
                     <p className="god-description">Déesse de la sagesse, de la raison et de la stratégie guerrière, protectrice d'Athènes,elle oppose la sauvagerie.</p>
                 </div>
                 <div className="txt-container-bar">
-                    <div className="dialogue-bar-left1 fade-in" >
+                    <div className="dialogue-bar-left1" >
                         <p className='talk'>Attends, mais t'es encore bourré toi ? </p>
                             <div className="left-point-bar"></div>
                     </div>
