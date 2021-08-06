@@ -1,4 +1,4 @@
-.Fountain{
+.Table{
     font-family:'Fondamento';
     font-style: bold;
 }
@@ -22,7 +22,7 @@
     
 }
 
-.godscards{
+.godscards-table{
     display: flex;
     margin:auto;
     text-align: center;
@@ -31,7 +31,7 @@
     flex-direction: column;
     width : 20vw;
     border-radius: 15px;
-    background: #AEE5FF;
+    background: #FEDCFC;
     box-shadow:0 0 20px rgba(0, 0, 0, 1);
 }
 
@@ -46,6 +46,7 @@ h2{
 
 .god-description {
     color: black;
+    padding : 10px;
 }
 
 .talk{
@@ -57,93 +58,93 @@ h2{
     position: relative;
 }
 
-.dialogue-left1{
+.dialogue-table-left1{
     width: 13%;
-    height: 4.5%;
-    background: #AEE5FF;
+    height: 6.5%;
+    background: #FEDCFC;
     border-radius: 10px;
     position: absolute;
     left: 38%;
     top: 20%;
 }
 
-.dialogue-left2{
+.dialogue-table-left2{
     width: 13%;
-    height: 6%;
-    background: #AEE5FF;
+    height: 6.5%;
+    background: #FEDCFC;
     border-radius: 10px;
     position: absolute;
     left: 38%;
-    top: 34%;
+    top: 36%;
     padding-left: 5px;
 }
 
-.dialogue-left3{
+.dialogue-table-left3{
     width: 13%;
-    height: 8.5%;
-    background: #AEE5FF;
+    height: 6.5%;
+    background: #FEDCFC;
     border-radius: 10px;
     position: absolute;
     left: 38%;
-    top: 48.5%;
+    top: 52%;
     padding-left: 5px;
 }
 
-.left-point{
+.left-point-table{
     width: 0;
 	height: 0;
 	border-left: 1.5vh solid transparent;
 	border-right: 1vh solid transparent;
-	border-top: 5vh solid #AEE5FF;
+	border-top: 5vh solid #FEDCFC;
 	position: absolute;
 	top: 53%;
 	left: -10%;
 	transform: rotate(60deg);
 }
 
-.dialogue-right1{
+.dialogue-table-right1{
     width: 13%;
-    height: 5%;
-    background: #AEE5FF;
+    height: 6.5%;
+    background: #FEDCFC;
     border-radius: 10px;
     position: absolute;
     left: 48%;
-    top: 27%;
+    top: 28%;
 }
 
-.dialogue-right2{
+.dialogue-table-right2{
     width: 13%;
-    height: 5%;
-    background: #AEE5FF;
+    height: 6.5%;
+    background: #FEDCFC;
     border-radius: 10px;
     position: absolute;
     left: 48%;
-    top: 41.5%;
+    top: 44%;
 }
 
-.dialogue-right3{
+.dialogue-table-right3{
     width: 13%;
-    height: 5%;
-    background: #AEE5FF;
+    height: 6.5%;
+    background: #FEDCFC;
     border-radius: 10px;
     position: absolute;
     left: 48%;
-    top: 58.5%;
+    top: 60%;
 }
 
-.right-point{
+.right-point-table{
     width: 0;
 	height: 0;
 	border-left: 1.5vh solid transparent;
 	border-right: 1vh solid transparent;
-	border-top: 5vh solid #AEE5FF;
+	border-top: 5vh solid #FEDCFC;
 	position: absolute;
 	top: 50%;
 	left: 100%;
 	transform: rotate(-60deg);
 }
 
-.back-btn-fountain{
+.back-btn{
     position: absolute;
     top : 70%;
     left : 45%;
@@ -153,4 +154,3 @@ h2{
     border-radius: 5px;
     cursor: pointer;
 }
-

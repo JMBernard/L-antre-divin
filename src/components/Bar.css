@@ -1,4 +1,4 @@
-.Fountain{
+.Bar{
     font-family:'Fondamento';
     font-style: bold;
 }
@@ -22,7 +22,7 @@
     
 }
 
-.godscards{
+.godscards-bar{
     display: flex;
     margin:auto;
     text-align: center;
@@ -31,7 +31,7 @@
     flex-direction: column;
     width : 20vw;
     border-radius: 15px;
-    background: #AEE5FF;
+    background: #a34242;
     box-shadow:0 0 20px rgba(0, 0, 0, 1);
 }
 
@@ -46,6 +46,7 @@ h2{
 
 .god-description {
     color: black;
+    padding : 10px;
 }
 
 .talk{
@@ -53,99 +54,110 @@ h2{
     color: black;
 }
 
-.text-container{
+.text-container-bar{
     position: relative;
 }
 
-.dialogue-left1{
+.dialogue-bar-left1{
     width: 13%;
-    height: 4.5%;
-    background: #AEE5FF;
+    height: 6.5%;
+    background: #a34242;
     border-radius: 10px;
     position: absolute;
     left: 38%;
     top: 20%;
+    animation: fadeIn 2s, 3s;
+  	opacity: 1;
 }
 
-.dialogue-left2{
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+       opacity: 1;
+    }
+}
+
+.dialogue-bar-left2{
     width: 13%;
-    height: 6%;
-    background: #AEE5FF;
+    height: 6.5%;
+    background: #a34242;
     border-radius: 10px;
     position: absolute;
     left: 38%;
-    top: 34%;
+    top: 36%;
     padding-left: 5px;
 }
 
-.dialogue-left3{
+.dialogue-bar-left3{
     width: 13%;
-    height: 8.5%;
-    background: #AEE5FF;
+    height: 4.8%;
+    background: #a34242;
     border-radius: 10px;
     position: absolute;
     left: 38%;
-    top: 48.5%;
+    top: 50%;
     padding-left: 5px;
 }
 
-.left-point{
+.left-point-bar{
     width: 0;
 	height: 0;
 	border-left: 1.5vh solid transparent;
 	border-right: 1vh solid transparent;
-	border-top: 5vh solid #AEE5FF;
+	border-top: 5vh solid #a34242;
 	position: absolute;
 	top: 53%;
 	left: -10%;
 	transform: rotate(60deg);
 }
 
-.dialogue-right1{
+.dialogue-bar-right1{
     width: 13%;
-    height: 5%;
-    background: #AEE5FF;
+    height: 6.5%;
+    background: #a34242;
     border-radius: 10px;
     position: absolute;
     left: 48%;
-    top: 27%;
+    top: 28%;
 }
 
-.dialogue-right2{
+.dialogue-bar-right2{
     width: 13%;
-    height: 5%;
-    background: #AEE5FF;
+    height: 4.5%;
+    background: #a34242;
     border-radius: 10px;
     position: absolute;
     left: 48%;
-    top: 41.5%;
+    top: 44%;
 }
 
-.dialogue-right3{
+.dialogue-bar-right3{
     width: 13%;
-    height: 5%;
-    background: #AEE5FF;
+    height: 6.5%;
+    background: #a34242;
     border-radius: 10px;
     position: absolute;
     left: 48%;
-    top: 58.5%;
+    top: 57%;
 }
 
-.right-point{
+.right-point-bar{
     width: 0;
 	height: 0;
 	border-left: 1.5vh solid transparent;
 	border-right: 1vh solid transparent;
-	border-top: 5vh solid #AEE5FF;
+	border-top: 5vh solid #a34242;
 	position: absolute;
 	top: 50%;
 	left: 100%;
 	transform: rotate(-60deg);
 }
 
-.back-btn-fountain{
+.back-btn-bar{
     position: absolute;
-    top : 70%;
+    top : 80%;
     left : 45%;
     padding: 10px;
     background-color: beige;
@@ -154,3 +166,26 @@ h2{
     cursor: pointer;
 }
 
+.show-text{
+    position: absolute;
+    font-size: 2em;
+    top : 70%;
+    left : 48%;
+    background : #a34242;
+    border: 4px solid #a34242;;
+    padding :5px;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+}
+
+.show-right-text1-bar{
+    position: absolute;
+}
+
+.show-text:hover .dialogue-bar-left1{
+    transition : 1s ease;
+    position: absolute;
+    opacity: 1;
+    
+}
