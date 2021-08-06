@@ -45,6 +45,14 @@
     color: #FEDCFC;
 }
 
+.bedroom-interaction {
+    position: absolute;
+    top: 66%;
+    right: 10%;
+    animation: pulsation 1.5s infinite;
+    color:black;
+}
+
 .scene-desc {
     width: 7rem;
     height: 2rem;
@@ -67,9 +75,10 @@
 }
 
 
+
 @keyframes pulsation {
     to {
-      box-shadow: 0 0 2px 2px white;
+      box-shadow: 0 0 4px 4px white;
     }
     }
 

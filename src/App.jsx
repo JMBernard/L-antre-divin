@@ -3,7 +3,8 @@ import HomePage from './pages/HomePage';
 import Tavern from './pages/Tavern';
 import Fountain from './components/Fountain';
 import Bar from './components/Bar';
-import Table from './components/Table'
+import Table from './components/Table';
+import Bedroom from './components/Bedroom';
 import ExitPage from './pages/ExitPage';
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/fountain' component={Fountain}/>
           <Route path='/bar' component={Bar}/>
           <Route path='/table' component={Table}/>
+          <Route path='/bedroom' component={Bedroom}/>
           <Route path='/exit' component={ExitPage}/>
         </Switch>
       </Router>

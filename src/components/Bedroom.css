@@ -1,0 +1,131 @@
+.Bedroom{
+    font-family:'Fondamento';
+    font-style: bold;
+}
+
+.background-fountain{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    object-fit: cover;
+    position: fixed;
+    position: absolute;
+}
+
+.cards-container{
+    position: relative;
+    display : flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 100vh;
+    
+}
+
+.godscards-bedroom{
+    display: flex;
+    margin:auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width : 20vw;
+    border-radius: 15px;
+    background: #a34242;
+    box-shadow:0 0 20px rgba(0, 0, 0, 1);
+}
+
+h2{
+    padding: 10px;
+}
+
+.godsPictures{
+    padding: 10px;
+    width: 100%;
+}
+
+.god-description {
+    color: black;
+    padding : 10px;
+}
+
+.talk{
+    padding: 10px;
+    color: black;
+}
+
+.text-container-bedroom{
+    position: relative;
+}
+
+.dialogue-bedroom-left1{
+    width: 13%;
+    height: 6.5%;
+    background: #a34242;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    left: 38%;
+    top: 20%;
+    animation: fadeIn 3s;
+  	opacity: 1;
+}
+
+.dialogue-bedroom-left2{
+    width: 13%;
+    height: 6.5%;
+    background: #a34242;
+    border-radius: 10px;
+    position: absolute;
+    left: 38%;
+    top: 36%;
+    padding-left: 5px;
+    animation: fadeIn 6s;
+  	opacity: 1;
+}
+
+.dialogue-bedroom-left3{
+    width: 13%;
+    height: 4.8%;
+    background: #a34242;
+    border-radius: 10px;
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    padding-left: 5px;
+    animation: fadeIn 8s;
+  	opacity: 1;
+}
+
+.left-point-bedroom{
+    width: 0;
+	height: 0;
+	border-left: 1.5vh solid transparent;
+	border-right: 1vh solid transparent;
+	border-top: 5vh solid #a34242;
+	position: absolute;
+	top: 53%;
+	left: -10%;
+	transform: rotate(60deg);
+}
+
+.back-btn-bedroom{
+    position: absolute;
+    top : 70%;
+    left : 45%;
+    padding: 10px;
+    background-color: beige;
+    border : 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: fadeIn 11s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+    
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+
+}
