@@ -54,7 +54,7 @@ h2{
     color: black;
 }
 
-.text-container{
+.text-container-bar{
     position: relative;
 }
 
@@ -144,13 +144,37 @@ h2{
 	transform: rotate(-60deg);
 }
 
-.back-btn{
+.back-btn-bar{
     position: absolute;
-    top : 70%;
+    top : 80%;
     left : 45%;
     padding: 10px;
     background-color: beige;
     border : 1px solid black;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.show-text{
+    position: absolute;
+    font-size: 2em;
+    top : 70%;
+    left : 48%;
+    background : #a34242;
+    border: 4px solid #a34242;;
+    padding :5px;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+}
+
+.show-right-text1-bar{
+    position: absolute;
+}
+
+.show-text:hover .dialogue-bar-left1{
+    transition : 1s ease;
+    position: absolute;
+    opacity: 1;
+    
 }
