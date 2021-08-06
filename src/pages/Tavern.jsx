@@ -15,7 +15,7 @@ function Tavern() {
 
             <i class="fas fountain-interaction fa-exclamation-circle"></i>
             <i class="fas table-interaction fa-exclamation-circle"></i>
-            <button className="Exit" onClick={ExitPage}>EXIT</button>
+           <a className="sortie" href="http://localhost:3001/exit"><button className="Exit" onClick={ExitPage}>EXIT</button></a> 
         </div>
         
     )
