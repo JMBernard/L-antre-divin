@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import imagecentrale from '../assets/open-door2.jpg'
+import torch from '../assets/torch.png';
 import './HomePage.css';
 
 
@@ -29,9 +30,14 @@ function HomePage() {
                     L'ANTRE &nbsp;  DIVIN
                 </div>
                 <div>
+                  <img className="torch torch-right" src={torch} alt="torch"/>
+                  <img className="torch torch-left" src={torch} alt="torch"/>
+                </div>
+                <div>
         <Link to='/tavern'>
             <a className="entry-door" alt="yolo" />
         </Link>
+
       </div>
         
         </div>
@@ -40,4 +46,3 @@ function HomePage() {
 }
 
 export default HomePage;
-
