@@ -68,15 +68,10 @@
     }
     }
 
-.Exit{
-    width: 60px;
-    height: 20px;
-    background-color: rgb(32, 29, 29);
-    color: white;
+.exit{
     position: absolute;
-    top:930px;
-    left:1500px;
-    cursor: pointer;
-
-
+    top: 95%;
+    left: 40%;
+    animation: pulsation 1.5s infinite;
+    color: #eb1ddd;
 }
