@@ -1,0 +1,16 @@
+.image .img-home{
+    width: 100vw;
+    height: 100vh;
+}
+.exit .sortie{
+    width: 20%;
+    height: 20%;
+    position:absolute;
+    z-index: 2px;
+    top: 55%;
+    left:37%;
+    font-family: Fondamento;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+}
