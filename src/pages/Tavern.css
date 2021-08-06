@@ -33,7 +33,7 @@
     color:#47a8d4;
 }
 
-.fountain-interaction:hover.scene-desc {
+.bar-interaction:hover.scene-desc {
     opacity: 1;
 }
 
@@ -52,6 +52,18 @@
     left: 47%;   
 }
 
+
+.desc-p {
+    opacity: 0.2;
+    font-size: 1.2rem;
+    color: blue;
+    padding-top: 4rem;
+    opacity: 0.2;
+}
+
+.desc-p:hover{
+    opacity: 1;
+}
 
 
 @keyframes pulsation {
