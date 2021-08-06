@@ -26,7 +26,7 @@ function HomePage() {
                     Restez sur vos gardes ...</p>
                 </div>
                 <div className="fronton">
-                    L'ANTRE &nbsp;  DIVIN
+                    L'ANTRE &nbsp;DIVIN
                 </div>
                 <div>
         <Link to='/tavern'>

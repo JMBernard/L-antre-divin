@@ -1,9 +1,13 @@
-.App {
+.HomePage {
+  width: 100vw;
   height: 100vh;
 }
+
+
 .img-home{
-  width:100vw;
-  height: 100vh;
+  width:100%;
+  height: 100%;
+  position: fixed;
   
 }
 
@@ -50,6 +54,11 @@
   cursor: pointer;
 }
 
+.entry-door:hover {
+  animation: light 5s infinite linear;
+
+}
+
 @keyframes pulse {
   to {
     box-shadow: 20px 0 100px 15px white,
@@ -58,6 +67,18 @@
     0 0 100px 15px white;
   }
   }
+
+
+@keyframes light {
+  to {
+    box-shadow: 200px 0 100px 30px white,
+    -200px 0 100px 30px white,
+    0 40px 100px 60px white,
+    0 -30px 100px 60px white;
+
+  }
+  }
+
 
   .fronton{
     width: 20%;
@@ -69,14 +90,11 @@
     font-weight: bold;
     font-size: 36px;
     color: white;
+    font-family: 'Rye'; 
     
   }
 
 
-.encart1 .encart2 {
+.encart1, .encart2 {
   font-family: 'Fondamento';
-}
-
-.fronton {
-   font-family: 'Rye'; 
 }
