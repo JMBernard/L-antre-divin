@@ -50,6 +50,11 @@
   cursor: pointer;
 }
 
+.entry-door:hover {
+  animation: light 5s infinite;
+}
+
+
 @keyframes pulse {
   to {
     box-shadow: 20px 0 100px 15px white,
@@ -58,6 +63,16 @@
     0 0 100px 15px white;
   }
   }
+
+  @keyframes light {
+    to {
+      box-shadow: 200px 0 300px 50px white,
+      -200px 0 300px 50px white,
+      0 100px 100px 35px white,
+      0 -50px 100px 35px white;
+    }
+    }
+  
 
   .fronton{
     width: 20%;
@@ -73,12 +88,12 @@
   }
 
 
-.encart1 .encart2 {
-  font-family: 'Fondamento';
+.encart1, .encart2 {
+  font-family: 'Fondamento', cursive;
 }
 
 .fronton {
-   font-family: 'Rye'; 
+   font-family: 'Rye', cursive; 
 }
 
 .torch {
