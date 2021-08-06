@@ -66,6 +66,17 @@ h2{
     position: absolute;
     left: 38%;
     top: 20%;
+    animation: fadeIn 2s, 3s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+       opacity: 1;
+    }
 }
 
 .dialogue-bar-left2{
