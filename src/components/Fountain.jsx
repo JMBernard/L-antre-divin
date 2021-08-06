@@ -44,7 +44,7 @@ function Fountain() {
                     </div>
                 </div>
                 <Link to='/tavern'>
-                    <button className="back-btn" >Retourner ce balader</button>
+                    <button className="back-btn-fountain" >Retourner ce balader</button>
                 </Link>
                 <div className="godscards">
                     <h2>Poséidon</h2>

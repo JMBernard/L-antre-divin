@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, /*useState*/ } from 'react-router-dom';
 import dionysos from '../assets/gods/dionysos.jpg';
 import athéna from '../assets/gods/athéna.jpg';
 import fountain from '../assets/fountain.jpg';
@@ -7,6 +7,9 @@ import fountain from '../assets/fountain.jpg';
 import './Bar.css'
 
 function Bar() {
+    
+    // const [showText, setShowText] = useState(false);
+
     return (
         <div className="Bar">
             <img className="background-fountain" src={fountain} alt="bgPicture"/>
@@ -17,10 +20,10 @@ function Bar() {
                     <img className='godsPictures' src={athéna} alt="athénaPicture"/>
                     <p className="god-description">Déesse de la sagesse, de la raison et de la stratégie guerrière, protectrice d'Athènes,elle oppose la sauvagerie.</p>
                 </div>
-                <div className="txt-container">
+                <div className="txt-container-bar">
                     <div className="dialogue-bar-left1">
                         <p className='talk'>Attends, mais t'es encore bourré toi ? </p>
-                        <div className="left-point-bar"></div>
+                            <div className="left-point-bar"></div>
                     </div>
                     <div className="dialogue-bar-right1">
                         <p className="talk">Pô duTsou enFIn, pOuR qui tmprend ?</p>
@@ -43,8 +46,12 @@ function Bar() {
                         <div className="right-point-bar"></div>
                     </div>
                 </div>
+                <button className="show-btn" 
+                    /*onClick={() => {setShowText(!showText)}}*/>
+                <i class="fas show-text fa-arrow-down"></i>
+                </button>
                 <Link to='/tavern'>
-                    <button className="back-btn" >Retourner ce balader</button>
+                    <button className="back-btn-bar">Retourner ce balader</button>
                 </Link>
                 <div className="godscards-bar">
                     <h2>Dionysos</h2>
