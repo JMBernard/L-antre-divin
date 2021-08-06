@@ -20,7 +20,6 @@ function App() {
           <Route path='/bar' component={Bar}/>
           <Route path='/table' component={Table}/>
           <Route path='/exit' component={ExitPage}/>
-
         </Switch>
       </Router>
     </div>

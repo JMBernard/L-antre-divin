@@ -19,7 +19,9 @@ function Tavern() {
             </Link>
             <Link to='/table'>
             <i class="fas table-interaction fa-exclamation-circle"></i>
-           <a className="sortie" href="http://localhost:3001/exit"><button className="Exit" onClick={ExitPage}>EXIT</button></a> 
+            </Link>
+            <Link to='/exit'>
+            <a className="sortie"><button className="Exit">EXIT</button></a> 
             </Link>
 
         </div>
