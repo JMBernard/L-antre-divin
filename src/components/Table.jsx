@@ -27,7 +27,7 @@ function Table() {
                         <div className="right-point-table"></div>
                     </div>
                     <div className="dialogue-table-left2">
-                        <p className='talk'>Ouai c'est cool, mais t'as vu mon six packs ou quoi ? </p>
+                        <p className='talk'>Ouai c'est cool, mais t'as vu mon six pack ou quoi ? </p>
                         <div className="left-point-table"></div>
                     </div>
                     <div className="dialogue-table-right2">
