@@ -61,38 +61,23 @@
     left: 47%;   
 }
 
-
-.desc-p {
-    opacity: 0.2;
-    font-size: 1.2rem;
-    color: blue;
-    padding-top: 4rem;
-    opacity: 0.2;
-}
-
-.desc-p:hover{
-    opacity: 1;
-}
-
-
-
 @keyframes pulsation {
     to {
-      box-shadow: 0 0 4px 4px white;
+      box-shadow: 0 0 8px 4px white;
     }
-    }
+}
 
 
 @keyframes pulpsation {
     to {
-        box-shadow: 0 0 2px 3px blue;
+        box-shadow: 0 0 8px 4px blue;
     }
-    }
+}
 
-.exit{
+.exit-door{
     position: absolute;
-    top: 95%;
-    left: 40%;
-    animation: pulsation 1.5s infinite;
-    color: #eb1ddd;
+    top: 89%;
+    left: 48.5%;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
 }

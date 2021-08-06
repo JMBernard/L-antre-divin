@@ -5,7 +5,7 @@ import './ExitPage.css';
 function ExitPage(){
     return(
         <div className="ExitPage">
-                <img clasName="image-exit" src={imagecentrale} alt="porte de sortie" />
+                <img className="image-exit" src={imagecentrale} alt="porte de sortie" />
            
             <div className="exit-p">
                 <p className="sortie">

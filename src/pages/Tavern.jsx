@@ -16,14 +16,11 @@ function Tavern() {
             <Link to='/table'>
             <i class="fas table-interaction fa-exclamation-circle"></i>
             </Link>
-            <Link to='/'>
-            <i class="fas table-interaction fa-exclamation-circle"></i>
-            </Link>
             <Link to='/bedroom'>
             <i class="fas bedroom-interaction fa-exclamation-circle"></i>
             </Link>
             <Link to='/exit'>
-            <i class="fas fa-door-open"></i>
+            <i class="fas exit-door fa-door-open"></i>
             </Link>
 
         </div>
