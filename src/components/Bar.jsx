@@ -53,7 +53,6 @@ function Bar() {
                     <p className="god-description">Dieu du vin et des fêtes, de la folie. Il est le fils de Zeus et de Sémélé, fille du roi de Thèbes.</p>
                 </div>
             </div>
-            
         </div>
     )
 }
