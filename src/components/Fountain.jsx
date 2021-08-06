@@ -19,7 +19,7 @@ function Fountain() {
                 </div>
                 <div className="txt-container">
                     <div className="dialogue-left1">
-                        <p>Wesh bien ou bien fréro ?</p>
+                        <p className='talk'>Wesh bien ou bien fréro ?</p>
                         <div className="left-point"></div>
                     </div>
                     <div className="dialogue-right1">
@@ -27,19 +27,19 @@ function Fountain() {
                         <div className="right-point"></div>
                     </div>
                     <div className="dialogue-left2">
-                        <p>Nickel ! Tu as déjà eu un coup de foudre toi ?</p>
+                        <p className='talk'>Nickel ! Tu as déjà eu un coup de foudre toi ?</p>
                         <div className="left-point"></div>
                     </div>
                     <div className="dialogue-right2">
-                        <p>Non jamais pourquoi ?</p>
+                        <p className='talk' >Non jamais pourquoi ?</p>
                         <div className="right-point"></div>
                     </div>
                     <div className="dialogue-left3">
-                        <p>Parce qu'avec moi, c'est généralement suivis d'un coup de rein</p>
+                        <p className='talk' >Parce qu'avec moi, c'est généralement suivis d'un coup de rein</p>
                         <div className="left-point"></div>
                     </div>
                     <div className="dialogue-right3">
-                        <p>HAHAHA T'es con fréro !!</p>
+                        <p className='talk' >HAHAHA T'es con fréro !!</p>
                         <div className="right-point"></div>
                     </div>
                 </div>
