@@ -18,7 +18,7 @@
   z-index: 2px;
   top: 25%;
   left:15%;
-  font-family: 'Fondamento', cursive;
+  font-family: Fondamento;
   font-size: 24px;
   color: white;
   
@@ -31,7 +31,7 @@
   z-index: 2px;
   top: 25%;
   right:15%;
-  font-family: 'Fondamento', cursive;
+  font-family: Fondamento;
   font-size: 24px;
   color:white;
 }
@@ -90,7 +90,7 @@
     font-weight: bold;
     font-size: 36px;
     color: white;
-    font-family: 'Rye', cursive;
+    font-family: 'Rye'; 
     
   }
 
