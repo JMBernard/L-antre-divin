@@ -35,11 +35,11 @@ function Fountain() {
                         <div className="right-point"></div>
                     </div>
                     <div className="dialogue-left3">
-                        <p className='talk' >Parce qu'avec moi, c'est généralement suivis d'un coup de rein</p>
+                        <p className='talk' >Tu veux essayer ? Je te fais ça en deux secondes! </p>
                         <div className="left-point"></div>
                     </div>
                     <div className="dialogue-right3">
-                        <p className='talk' >HAHAHA T'es con fréro !!</p>
+                        <p className='talk' >Ah ça ! Euh ... non merci</p>
                         <div className="right-point"></div>
                     </div>
                 </div>
