@@ -35,7 +35,7 @@ function HomePage() {
                 </div>
                 <div>
         <Link to='/tavern'>
-            <a className="entry-door" alt="yolo" />
+            <button className="entry-door" alt="yolo" />
         </Link>
 
       </div>
