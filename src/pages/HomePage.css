@@ -1,0 +1,107 @@
+.HomePage{
+  width: 100vw;
+  height: 100vh;
+}
+
+.img-home{
+  width:100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+  position: fixed;
+  
+}
+
+.encart1{
+  width: 20%;
+  height: 20%;
+  position:absolute;
+  z-index: 2px;
+  top: 25%;
+  left:10%;
+  font-family: Fondamento;
+  font-size: 24px;
+  color: white;
+  font-family: 'Fondamento', cursive;
+  
+}
+
+.encart2{
+  width: 20%;
+  height: 20%;
+  position:absolute;
+  z-index: 2px;
+  top: 25%;
+  right:10%;
+  font-family: Fondamento;
+  font-size: 24px;
+  color:white;
+  font-family: 'Fondamento', cursive;
+}
+
+
+.desc {
+  line-height: 3em;
+  text-align: center;
+}
+
+.entry-door {
+  height: 50%;
+  width: 11%;
+
+  position: absolute;
+  top: 40%;
+  left : 45%;
+  background-color: transparent;
+  animation: pulse 1.3s infinite;
+  cursor: pointer;
+}
+
+.entry-door:hover {
+  animation: light 5s infinite;
+}
+
+
+@keyframes pulse {
+  to {
+    box-shadow: 20px 0 100px 15px white,
+    -20px 0 100px 15px white,
+    0 0 100px 15px white,
+    0 0 100px 15px white;
+  }
+  }
+
+  @keyframes light {
+    to {
+      box-shadow: 200px 0 300px 50px white,
+      -200px 0 300px 50px white,
+      0 100px 100px 35px white,
+      0 -50px 100px 35px white;
+    }
+    }
+  
+
+  .fronton{
+    width: 20%;
+    height: 20%;
+    position:absolute;
+    z-index: 2px;
+    top: 22%;
+    right:38.3%;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    font-family: 'Rye', cursive; 
+}
+.torch {
+  position: absolute;
+  top: 14%;
+}
+
+.torch-left {
+  left: 19%;
+}
+
+.torch-right {
+  right: 19%;
+}
